@@ -1,0 +1,28 @@
+{
+  "name": "prototyping-example",
+  "description": "Prototyping example",
+  "scripts": {
+    "start": "budo index.coffee:index.js -olv --ndjson -- -t coffeeify -t cssify --extension='.css' --extension='.coffee' | garnish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugarshin/prototyping-example"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^9.3.0",
+    "coffeeify": "^2.1.0",
+    "cssify": "^1.0.3",
+    "garnish": "^5.2.0"
+  },
+  "dependencies": {
+    "crel": "^3.0.0",
+    "dom-event": "^1.0.0",
+    "dom-select": "^1.1.1",
+    "fade": "^0.2.0",
+    "lodash": "^4.17.3",
+    "native-promise-only": "^0.8.1",
+    "text-content": "0.0.3"
+  }
+}

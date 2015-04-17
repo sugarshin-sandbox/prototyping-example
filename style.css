@@ -1,0 +1,11 @@
+.slides {
+  position: relative;
+}
+
+.slides-item {
+  position: absolute;
+}
+
+button {
+  margin-top: 160px;
+}
